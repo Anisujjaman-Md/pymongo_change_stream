@@ -12,4 +12,4 @@ if __name__ == '__main__':
     for change in change_stream:
         client.tkdc.client_data_history.insert_one(change)
         print(dumps(change)) 
-        print('')
+        print('  ')
