@@ -1,0 +1,8 @@
+{
+  "source": "mongodb+srv://anis:%23%23anis2203@cluster0.ahivkmt.mongodb.net/test?retryWrites=true",
+  "source_db": "tkdc",
+  "destination": "mongodb://anis:123456@localhost:27017/?authMechanism=SCRAM-SHA-1&authSource=tkdc",
+  "destination_db": "tkdc_test",
+  "redis_host": "localhost",
+  "redis_port": "6379"
+}
